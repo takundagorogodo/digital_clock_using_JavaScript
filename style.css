@@ -11,20 +11,16 @@
       color: #fff;
       position: relative;
       background: linear-gradient(45deg, #0a2528,#36a7c4);
-
-      /* ADD THESE */
       display: flex;
       align-items: center;
       justify-content: center;
 }
-
 .container{
       width: 800px;
       height: 180px;
       position: relative;
       background: rgb(148, 196, 205);
 }
-
 .container::after{
       content: "";
     width: 180px;
@@ -74,8 +70,7 @@
       position: relative;
       color: #083940;
 }
-.clock span::after{
-      
+.clock span::after{  
       position: absolute;
       font-size: 16px;
       bottom: -5px;
@@ -90,4 +85,5 @@
 }
 #sec::after{
      content: "SEC";
+
 }
